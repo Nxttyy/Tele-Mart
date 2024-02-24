@@ -32,7 +32,7 @@ def get_update_http():
 
 def send_to_chat():
 	url = "https://api.telegram.org/bot"+ token + "/sendMessage"
-	PARAMS = {'chat_id':,
+	PARAMS = {'chat_id':'',
 				'text':'Hello Chat.'}
 
 	# print(data)
